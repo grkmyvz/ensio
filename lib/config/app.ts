@@ -5,7 +5,7 @@ export const appConfig = {
   app: {
     name: "Ensio",
     description: "Bridge your ENS identity with crypto donations.",
-    url: "https://ensio.app",
+    url: "https://ensio.pages.dev",
   },
   rainbowKit: {
     projectId:

@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ensio.app/sitemap.xml
+Sitemap: https://ensio.pages.dev/sitemap.xml

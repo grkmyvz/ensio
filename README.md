@@ -81,12 +81,12 @@ Open [http://localhost:3000](http://localhost:3000) to see the app.
 
 1. Set up your ENS profile at [app.ens.domains](https://app.ens.domains)
 2. Add your wallet addresses (ETH, BTC, SOL)
-3. Share your link: `ensio.app/yourname.eth`
+3. Share your link: `ensio.pages.dev/yourname.eth`
 4. Receive donations directly to your wallets
 
 ### For Donors
 
-1. Visit someone's profile: `ensio.app/vitalik.eth`
+1. Visit someone's profile: `ensio.pages.dev/vitalik.eth`
 2. Connect your wallet (EVM or Solana)
 3. Choose amount and token
 4. Send donation directly on-chain

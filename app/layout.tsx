@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ensio.app",
+    url: "https://ensio.pages.dev",
     title: "Ensio - ENS-Based Crypto Donations",
     description:
       "Bridge your ENS identity with crypto donations. Direct wallet-to-wallet transfers with no platform fees.",

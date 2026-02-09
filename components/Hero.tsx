@@ -95,7 +95,7 @@ export default function Hero() {
                 <div className="text-zinc-300 text-xs">
                   Give people{" "}
                   <span className="text-emerald-400">
-                    ensio.app/yourname.eth
+                    ensio.pages.dev/ens/yourname.eth
                   </span>
                 </div>
               </div>
@@ -121,11 +121,11 @@ export default function Hero() {
               </div>
             </div>
             <Link
-              href="/vitalik.eth"
+              href="/ens/vitalik.eth"
               className="flex items-center gap-2 bg-zinc-950 border border-zinc-800 px-4 py-3 rounded hover:border-zinc-700 transition-colors cursor-pointer"
             >
               <span className="text-zinc-600 text-sm font-mono">
-                ensio.app/
+                ensio.pages.dev/ens/
               </span>
               <span className="text-emerald-400 font-mono">vitalik.eth</span>
             </Link>

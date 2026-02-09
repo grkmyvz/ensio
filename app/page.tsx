@@ -11,7 +11,8 @@ import { isValidENSName, sanitizeENSName } from "@/lib/utils/validation";
 function HomeContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const profileParam = searchParams?.get("profile");
+
+  const profileParam = searchParams?.get("ens");
 
   if (profileParam) {
     const sanitizedProfile = sanitizeENSName(profileParam);

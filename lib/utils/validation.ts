@@ -12,8 +12,8 @@ export function isValidENSName(name: string): boolean {
   // Remove .eth suffix for validation
   const label = name.slice(0, -4);
 
-  // Check length (3-253 characters without .eth)
-  if (label.length < 3 || label.length > 253) return false;
+  // Check length (1-253 characters without .eth)
+  if (label.length < 1 || label.length > 253) return false;
 
   // ENS names can only contain lowercase letters, numbers, and hyphens
   // Cannot start or end with hyphen
@@ -28,6 +28,5 @@ export function isValidENSName(name: string): boolean {
  * @returns Sanitized ENS name
  */
 export function sanitizeENSName(name: string): string {
-  if (!name || typeof name !== "string") return "";
-  return name.toLowerCase().trim();
+  return (name ?? "").toLowerCase().trim().replace(/\/+$/, "");
 }
