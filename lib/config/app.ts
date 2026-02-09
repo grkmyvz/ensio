@@ -14,8 +14,6 @@ export const appConfig = {
   },
   rpcs: {
     mainnet: process.env.NEXT_PUBLIC_MAINNET_RPC_URL || "https://eth.drpc.org",
-    sepolia:
-      process.env.NEXT_PUBLIC_SEPOLIA_RPC_URL || "https://sepolia.drpc.org",
   },
   solana: {
     network: (process.env.NEXT_PUBLIC_SOLANA_NETWORK || "mainnet-beta") as
