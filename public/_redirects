@@ -1,0 +1,7 @@
+# Cloudflare Pages Redirects
+# ENS profile redirects - catch all .eth domains
+/*.eth /index.html 200
+/*.eth/ /index.html 200
+
+# SPA fallback for all other routes
+/* /index.html 200
