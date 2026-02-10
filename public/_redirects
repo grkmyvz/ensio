@@ -1,3 +1,7 @@
+# Cloudflare Pages Redirects
+# ENS profile redirects - /ens/vitalik.eth -> /?ens=vitalik.eth
 /ens/:ens    /?ens=:ens    302
 /ens/:ens/   /?ens=:ens    302
-/*       /index.html       200
+
+# SPA fallback for all other routes
+/*    /index.html    200
