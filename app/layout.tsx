@@ -69,7 +69,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark overflow-y-scroll">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-950 text-zinc-100`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-950 text-zinc-100 mb-4`}
       >
         <Providers>{children}</Providers>
       </body>
